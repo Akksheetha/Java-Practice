@@ -47,16 +47,14 @@ public class Interface {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Circle1 c = new Circle1(5);
-	
-//		Shape1 circle = new Circle1(5);
-//        Shape1 rectangle = new Rectangle1(4, 6);
-//        System.out.println(circle.getDescription());
-//        System.out.println("Area: " + circle.calculateArea());
-//        System.out.println("Perimeter: " + circle.calculatePerimeter());
-//        System.out.println(rectangle.getDescription());
-//        System.out.println("Area: " + rectangle.calculateArea());
-//        System.out.println("Perimeter: " + rectangle.calculatePerimeter());
+		Circle1 circle = null;
+        Shape1 rectangle = new Rectangle1(4, 6);
+        System.out.println(circle.getDescription());
+        System.out.println("Area: " + circle.calculateArea());
+        System.out.println("Perimeter: " + circle.calculatePerimeter());
+        System.out.println(rectangle.getDescription());
+        System.out.println("Area: " + rectangle.calculateArea());
+        System.out.println("Perimeter: " + rectangle.calculatePerimeter());
 	}
 
 }
